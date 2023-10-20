@@ -1,0 +1,34 @@
+{
+  "name": "Chart JS TC",
+  "version": "1.0",
+  "description": "Easy to use ChartJS template component for your reports",
+  "keywords": ["chart", "report", "js"],
+  "homepage": "https://github.com/RyanOLee11/chartjs_partial.git",
+  "bugs": {
+    "url": "https://github.com/RyanOLee11/chartjs_partial.git/issues",
+    "email": "rlee009@plattsburgh.edu"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Ryan Lee",
+    "email": "rlee009@plattsburgh.edu",
+    "url": "https://ryanolee.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyanOLee11/chartjs_partial.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["23.1.0"],
+      "plugin": {
+        "internalName": "THEME$CHARTJS",
+        "type": "template component",
+        "demo": "https://apex.oracle.com/pls/apex/r/ryanolee11/ryan-component-templates/chart-js",
+        "previewImage": "https://github.com/RyanOLee11/chartjs_partial/chartjs_tc_preview.png?raw=true"
+      }
+    }
+  }
+}
